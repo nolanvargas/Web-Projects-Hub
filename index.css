@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@100&display=swap");
+:root {
+  --site-title: "Sofia Sans", sans-serif;
+}
+
+body {
+  animation: wallpaper 20s linear infinite;
+}
+@keyframes wallpaper {
+  0% {
+    background-color: #ae98a2;
+  }
+  33% {
+    background-color: #9f96b0;
+  }
+  66% {
+    background-color: #a0a4bb;
+  }
+  100% {
+    background-color: #ae98a2;
+  }
+}
+
+@keyframes title {
+  0% {
+    background-color: #ae98a2;
+  }
+  33% {
+    background-color: #ae98a2;
+  }
+  66% {
+    background-color: #9f96b0;
+  }
+  100% {
+    background-color: #a0a4bb;
+  }
+}
+
+.siteCard {
+  margin: auto;
+  border: 2px solid white;
+  font-family: var(--site-title);
+  text-align: center;
+
+  box-sizing: border-box;
+}
+
+.siteCard:hover {
+  border: 6px solid white;
+  transition: 100ms;
+  position: relative;
+}
+
+.siteContent > h1 {
+  color: rgb(40, 40, 40);
+}
+
+@media only screen and (max-width: 1000px) {
+  .siteCard {
+    margin: auto;
+    margin-top: 50px;
+    width: clamp(200px, 75vw, 350px);
+    height: clamp(100px, 15vh, 350px);
+    padding: clamp(20px, 3vw 30px);
+  }
+  .siteContent {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    border: 3px solid red;
+  }
+}
