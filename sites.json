@@ -1,11 +1,13 @@
 {
   "WWR": {
     "title": "White Water Rafting",
-    "description": "For a class, I developed a marketing website for a demo company called White Water Rafting that includes a clean, modern design, a logo, navigation menu, images, and text. I used semantic elements such as <header>, <nav>, <main> and <footer> to indicate the different sections of the website, and used CSS classes and ids to style elements. I also used alt tags for images to help users who are visually impaired and improve the SEO of the website. This was one of the first websites that I developed."
+    "description": "For a class, I developed a marketing website for a demo company called White Water Rafting that includes a clean, modern design, a logo, navigation menu, images, and text. I used semantic elements such as header, nav, main and footer to indicate the different sections of the website, and used CSS classes and ids to style elements. I also used alt tags for images to help users who are visually impaired and improve the SEO of the website. This was one of the first websites that I developed.",
+    "link": "https://nolanvargas.github.io/WWR/"
   },
   "RNWEATHER": {
     "title": "RN Weather",
-    "description": "For a class, I developed this weather website as well as the dummy company."
+    "description": "For a class, I developed this weather website as well as the dummy company.",
+    "link": "https://nolanvargas.github.io/rnweather/index.html"
   },
   "SCOOTS": {
     "title": "Scoots",
