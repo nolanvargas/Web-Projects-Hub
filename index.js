@@ -1,8 +1,12 @@
 import data from "./sites.json" assert { type: "json" };
 
 function buildSiteTemplate(name, data) {
-  console.log(name, data);
-  const html = `<div class="siteCard"><div class="siteContent"><h1>${data.title}</h1></div></div>`;
+  const html = `<div class="siteCard">
+                  <div class="siteContent">
+                    <h1>${data.title}</h1>
+                    <p>${data.description}</p>
+                  </div>
+                </div>`;
   return html;
 }
 
@@ -26,3 +30,8 @@ async function main() {
 }
 
 document.addEventListener("DOMContentLoaded", main);
+
+const string = document.lastModified;
+document.querySelector(
+  "#footer"
+).innerHTML = `<p>Nolan Thomas Vargas - Last Updated: ${string}</p>`;
