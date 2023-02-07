@@ -18,7 +18,7 @@ function buildSiteTemplate(name, data) {
   }
 
   if (data.link) {
-    html += `<a href="${data.link}" target="_blank" class="hidden visitSite">Visit</a>`;
+    html += `<a href="${data.link}" target="_blank" class="hidden visitSite"><p>Visit</p></a>`;
   }
 
   html += `</div>
@@ -67,8 +67,15 @@ function loadEnlargeListener(image) {
       image.style.left = "50%";
       image.style.transform = "translate(-50%, -50%)";
       image.style.zIndex = "999";
-      image.style.width = "90%";
-      image.style.height = "auto";
+
+      const aspectRatio = window.innerWidth / window.innerHeight;
+      if (aspectRatio > 1) {
+        image.style.width = "auto";
+        image.style.height = "90%";
+      } else {
+        image.style.height = "auto";
+        image.style.width = "90%";
+      }
 
       image.enlarged = true;
     } else {

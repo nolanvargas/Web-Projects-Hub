@@ -72,9 +72,16 @@ body {
 
 .gif {
   width: 50%;
+  min-width: 200px;
 }
 
 .visitSite {
+  display: block;
+  margin: auto;
+  background-color: antiquewhite;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
   width: clamp(100px, 30vw, 200px);
   height: 50px;
   border: 3px solid black;
@@ -86,12 +93,18 @@ body {
 .visitSite:hover {
   transition: 50ms;
   background-color: black;
+}
+
+.visitSite:hover > p {
   color: white;
 }
 
 .visitSite > p {
-  font-family: var(--site-title);
-  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: larger;
+  color: black;
+  margin-top: 7%;
 }
 
 .hidden {
@@ -107,7 +120,7 @@ body {
     margin: auto;
     margin-top: 50px;
 
-    width: clamp(200px, 75vw, 550px);
+    width: clamp(200px, 75vw, 650px);
     height: auto;
     padding: clamp(20px, 3vw 30px);
     padding-top: 10px;
