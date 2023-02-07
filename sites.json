@@ -1,27 +1,33 @@
 {
   "WWR": {
     "title": "White Water Rafting",
-    "description": "For a class, I developed a marketing website for a demo company called White Water Rafting that includes a clean, modern design, a logo, navigation menu, images, and text. I used semantic elements such as header, nav, main and footer to indicate the different sections of the website, and used CSS classes and ids to style elements. I also used alt tags for images to help users who are visually impaired and improve the SEO of the website. This was one of the first websites that I developed.",
+    "description": "I developed a marketing website for a demo company called White Water Rafting that includes a page design, a logo, navigation menu, images, and text. I used semantic elements such as header, nav, main and footer to indicate the different sections of the website, and used CSS classes and ids to style elements. I also used alt tags for images to help users who are visually impaired and improve the SEO of the website. This was one of the first websites that I created.",
     "link": "https://nolanvargas.github.io/WWR/"
   },
   "RNWEATHER": {
     "title": "RN Weather",
-    "description": "For a class, I developed this weather website as well as the dummy company.",
+    "description": "I developed this weather website as well as the dummy company for a local area in Idaho. I used http requests to https://api.openweathermap.org to get the current weather data for these areas. I also added an algorithm in javascript to calculate wind chill. The page also includes a mobile design that shrinks the nav bar to a toggleable menu",
     "link": "https://nolanvargas.github.io/rnweather/index.html"
   },
   "SCOOTS": {
     "title": "Scoots",
-    "description": "For a class, this was my final",
+    "description": "This website was developed for a dummy company that rents scooters in coastal areas. I am most proud of the design on this one because it looks professional and has a responsive design. The footer splits into sections that adjust themselves automatically to the screen width. This site also features integration with a weather api, getting current weather stats using http requests.",
     "link": "https://nolanvargas.github.io/scoots/"
   },
   "SLEEPOUTSIDE": {
     "title": "Sleep Outside",
-    "description": "For a class, I build the functionality for this site. The assets like images and site plan were created for the class",
-    "link": "www.com"
+    "description": "I build the dynamic functionality for this site. The assets like images and site plan were not created by me. Some of the things I worked on were the cart feature, checkout, transactions, and dynamic content for most views. ",
+    "content": [
+      "./media/sleepOutside/home.jpg",
+      "./media/sleepOutside/products.jpg",
+      "./media/sleepOutside/item.jpg",
+      "./media/sleepOutside/cart.jpg",
+      "./media/sleepOutside/checkout.jpg"
+    ]
   },
   "R2R": {
     "title": "Rank to Rank",
     "description": "This was originally created to be a production site where users could input their rank from a video game and it would be compared with statistics from 8 other games.",
-    "link": "https://nolanvargas.github.io/R2R/"
+    "content": ["/media/r2r/demo.gif"]
   }
 }

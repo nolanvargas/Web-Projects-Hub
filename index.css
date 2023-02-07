@@ -7,36 +7,7 @@
 }
 
 body {
-  animation: wallpaper 20s linear infinite;
-}
-@keyframes wallpaper {
-  0% {
-    background-color: #ae98a2;
-  }
-  33% {
-    background-color: #9f96b0;
-  }
-  66% {
-    background-color: #a0a4bb;
-  }
-  100% {
-    background-color: #ae98a2;
-  }
-}
-
-@keyframes title {
-  0% {
-    background-color: #af96a1;
-  }
-  33% {
-    background-color: #aa8f9b;
-  }
-  66% {
-    background-color: #9a8eaf;
-  }
-  100% {
-    background-color: #af96a1;
-  }
+  background-color: #19323c;
 }
 
 .siteCard {
@@ -47,6 +18,10 @@ body {
   box-sizing: border-box;
   width: 650px;
   margin-top: 50px;
+  min-height: 100px;
+  overflow: hidden;
+  transition: max-height 0.5s;
+  cursor: pointer;
 
   /* border styling animation by Temani Afif - March 23, 2022 - https://codepen.io/t_afif */
 
@@ -64,7 +39,10 @@ body {
     conic-gradient(at bottom var(--b) left var(--b), var(--_g)) 0
       var(--_i, 200%) / var(--_i, var(--b)) 200% no-repeat;
   transition: 0.3s, background-position 0.3s 0.3s;
-  cursor: pointer;
+}
+
+.siteCard.expanded {
+  min-height: 400px;
 }
 
 .siteCard:hover {
@@ -72,12 +50,52 @@ body {
   transition: 0.1s, background-size 0.1s 0.1s;
 }
 
+.siteContent {
+  height: 100%;
+}
+
 .siteContent > h1 {
-  color: rgb(40, 40, 40);
+  color: white;
 }
 
 .siteContent > p {
   font-family: var(--site-description);
+  color: white;
+}
+
+.image {
+  width: 100%;
+  padding-top: 20px;
+  display: block;
+  margin: auto;
+}
+
+.gif {
+  width: 50%;
+}
+
+.visitSite {
+  width: clamp(100px, 30vw, 200px);
+  height: 50px;
+  border: 3px solid black;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.visitSite:hover {
+  transition: 50ms;
+  background-color: black;
+  color: white;
+}
+
+.visitSite > p {
+  font-family: var(--site-title);
+  font-weight: 800;
+}
+
+.hidden {
+  display: none;
 }
 
 #footer {
