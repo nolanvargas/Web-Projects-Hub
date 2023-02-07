@@ -6,7 +6,7 @@
   },
   "RNWEATHER": {
     "title": "RN Weather",
-    "description": "I developed this weather website as well as the dummy company for a local area in Idaho. I used http requests to https://api.openweathermap.org to get the current weather data for these areas. I also added an algorithm in javascript to calculate wind chill. The page also includes a mobile design that shrinks the nav bar to a toggleable menu",
+    "description": "I developed this weather website as well as the dummy company for a local area in Idaho. I used http requests to https://api.openweathermap.org to get the current weather data for these areas. I also added an algorithm in javascript to calculate wind chill. The page also includes a mobile design that shrinks the nav bar to a toggleable menu. I coded this entirely from scratch with some design requirements. The load times are very slow, because I used full resolution images. If I were to work on this app today then that would be one of the first things on my list to fix.",
     "link": "https://nolanvargas.github.io/rnweather/index.html"
   },
   "SCOOTS": {
@@ -16,7 +16,7 @@
   },
   "SLEEPOUTSIDE": {
     "title": "Sleep Outside",
-    "description": "I build the dynamic functionality for this site. The assets like images and site plan were not created by me. Some of the things I worked on were the cart feature, checkout, transactions, and dynamic content for most views. ",
+    "description": "I build the dynamic functionality for this site. The assets like images and site plan were not created by me. Some of the things I worked on were the cart feature, checkout, transactions, and dynamic content for all views. The source for my data comes from the universities servers, which use http, so hosting this site would require a proxy. Almost all my work here was done in javascript, along with the css styling.",
     "content": [
       "./media/sleepOutside/home.jpg",
       "./media/sleepOutside/products.jpg",
