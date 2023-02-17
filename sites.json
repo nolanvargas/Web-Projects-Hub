@@ -16,7 +16,7 @@
   },
   "SLEEPOUTSIDE": {
     "title": "Sleep Outside",
-    "description": "I build the dynamic functionality for this site. The assets like images and site plan were not created by me. Some of the things I worked on were the cart feature, checkout, transactions, and dynamic content for all views. The source for my data comes from the universities servers, which use http, so hosting this site would require a proxy. Almost all my work here was done in javascript, along with the css styling.",
+    "description": "I build the dynamic functionality for this site. The assets like images and site plan were not created by me. Some of the things I worked on were the cart feature, checkout, transactions, and dynamic content for all views. Almost all my work here was done in vanilla javascript, along with the css styling.",
     "content": [
       "./media/sleepOutside/home.jpg",
       "./media/sleepOutside/products.jpg",
@@ -27,7 +27,7 @@
   },
   "R2R": {
     "title": "Rank to Rank",
-    "description": "This was originally created to be a site where users could input their rank from a video game and it would be compared with statistics from 8 other games. The input would be converted to a percentile rank using rank population statistics. Acquiring live data from most of these games isn't possible because most companies don't publish this data, but it is collected by 3rd parties at the cost of reliability.",
+    "description": "This was originally created to be a site where users could input their rank from a video game and it would be compared with statistics from 8 other games. The input would be converted to a percentile rank using rank population statistics. Acquiring live data from most of these games isn't work because most companies don't publish this data, however it is collected by 3rd parties at the cost of reliability.",
     "content": ["./media/r2r/demo.gif"]
   }
 }
